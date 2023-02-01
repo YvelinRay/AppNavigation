@@ -14,7 +14,7 @@ class TitleFragment : Fragment() {
     // TODO: Rename and change types of parameters
     //Inflating and Returning the View with DataBindingUtil
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
-                              savedInstanceState: Bundle?): View? {
+        savedInstanceState: Bundle?): View? {
         val binding: FragmentTitleBinding = DataBindingUtil.inflate(
             inflater, R.layout.fragment_title, container, false
         )
